@@ -1,0 +1,11 @@
+ftp: 27.254.77.234 port 62
+user: jitwilaitour
+pass: label$comedy=mock
+
+
+
+MySQL
+http://my.vm101.net
+Database: jitwilaitour_db
+User: jitwilaitour_dbo
+Password: ObservationCampaignDoctor8Shift
