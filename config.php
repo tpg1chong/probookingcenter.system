@@ -1,19 +1,5 @@
 <?php
 
-/*$servername = "jitwilaitour.com";
-$username = "jitwilai_db";
-$password = 'password.';
-$db_name = "jitwilai_db";
-
-// Create connection
-$con = mysqli_connect($servername, $username, $password, $db_name);
-
-// Check connection
-if (mysqli_connect_errno()) {
- 	die("Connection failed: " . mysqli_connect_error() );
-}
-echo "Connected successfully";
-die;*/
 
 function siteURL()
 {
@@ -25,9 +11,9 @@ function siteURL()
 date_default_timezone_set("Asia/Bangkok");
 
 // Always provide a TRAILING SLASH (/) AFTER A PATH
-define('URL', 'http://localhost/probooking/');
+define('URL', 'http://localhost/probookingcenter.system/');
 
-define('UPLOADS_URL', 'http://localhost/probooking/' . 'public/');
+define('UPLOADS_URL', 'http://localhost/probookingcenter.system/public/');
 
 define('DB_TYPE', 'mysql');
 define('DB_HOST', 'localhost');

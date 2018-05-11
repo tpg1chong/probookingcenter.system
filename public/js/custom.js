@@ -220,7 +220,7 @@ uiLayer = {
     }
 },
 Event = {
-    URL: window.location.origin + "/probooking/",
+    URL: window.location.origin + "/probookingcenter.system/",
     mobilecheck: function() {
         var e = !1;
         return function(t) {
